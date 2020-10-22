@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Autokiezer.nl Autoreview</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</Head>
+
+<body>
+   <div class="Container">
+     <div class="header"> <img src="polobanner.jpg" id="banner"> </div> 
+     <div class="menu"> <a href="Index.html"><button> Home</button></a> 
+                        <a href="Videos.html"><button> Videos</button></a>
+                        <a href="Review.html"><button> Review</button></a></div>
+     <div class="main"> <h1>Autoreview</h1>
+      <form>
+        <label>Naam:<input type="text" name="Naam" required/></label> <br>
+        <label>E-mail:<input type="email" name="E-mail"/></label> <br>
+        <label>Man<input type="radio" name="gender" value="Man"/></label>
+        <label>Vrouw<input type="radio" name="gender" value="Vrouw"/></label><br>
+        <label>Merk:</label>
+        <select name="Merk" id="Merk" required>
+          <option value=""></option><option value="alfa romeo">Alfa Romeo</option>
+          <option value="audi">Audi</option><option value="bmw">BMW</option>
+          <option value="citroën">Citroën</option><option value="fiat">Fiat</option>
+          <option value="ford">Ford</option><option value="honda">Honda</option>
+          <option value="hyundai">Hyundai</option><option value="kia">Kia</option>
+          <option value="land rover">Land Rover</option><option value="mercedes">Mercedes Benz</option>
+          <option value="mini">Mini</option><option value="nissan">Nissan</option>
+          <option value="opel">Opel</option><option value="peugeot">Peugeot</option>
+          <option value="renault">Renault</option><option value="seat">Seat</option>
+          <option value="skoda">Skoda</option><option value="toyota">Toyota</option>
+          <option value="volkswagen">Volkswagen</option><option value="volvo">Volvo</option>
+        </select><br><br>
+        <label>Review:<br><textarea rows="20" cols="80" name="Review" required></textarea> </label>
+      
+
+        <br><button type="reset" id="formbutton">Reset</button>
+        <button type="submit" id="formbutton">Submit</button>
+      </form>
+    </div>
+
+   
+    
+
+    <div class="footer">
+       <h3><strong>Autokiezer.nl</strong></h3>
+       <a Href="https://www.facebook.com">-Facebook</a><br>
+       <a href="https://www.instagram.com">-Instagram </a><br>
+       <a Href="https://www.youtube.nl">-Youtube</a><br>
+       <a Href="https://www.google.nl">-Disclaimer</a><br>
+
+     </div>
+</div>
+
+</body>
